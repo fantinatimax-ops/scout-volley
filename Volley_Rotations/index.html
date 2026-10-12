@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Volley Rotations</title>
+
+    <script src="vendor/snap.svg-min.js"></script>
+    <script src="roster.js"></script>
+    <script src="serveScout.js"></script>
+    <script src="receiveScout.js"></script>
+    <script src="vbRotations.js"></script>
+    <style>
+
+        body{
+            font-family:Verdana, Arial, sans-serif;
+            margin:10px;
+                    }
+
+        
+        
+        #layout{
+            display:flex;
+            gap:15px;
+            align-items:flex-start;
+        }
+
+        #courtContainer{
+            width:740px;
+        }
+
+        #rosterContainer{
+            width:300px;
+        }
+
+        #rosterPanel{
+            width:100%;
+            box-sizing:border-box;
+        }
+
+        select{
+            width:100%;
+        }
+
+        @media (max-width:1200px){
+
+            #layout{
+                flex-direction:column;
+            }
+
+            #courtContainer{
+                width:740px;
+                max-width:100%;
+            }
+
+            #rosterContainer{
+                width:100%;
+                max-width:500px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="layout">
+        <div id="courtContainer"></div>
+        <div id="rosterContainer"></div>
+    </div>
+
+    <script>
+        var board = new monkeysppp.vbRotations.SVGMaker();
+
+        document
+            .getElementById("courtContainer")
+            .appendChild(
+                board.createSVG()
+            );
+
+        board.draw();
+
+    </script>
+
+</body>
+
+</html>

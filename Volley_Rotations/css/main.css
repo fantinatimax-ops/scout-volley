@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    display: flex;
+}
+
+#courtContainer {
+flex: 1;
+}
+ 
+#courtContainer svg {
+width: 100%;
+max-width: 740px;
+height: auto;
+}
+
+#sidebar {
+    width: 300px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.player-name {
+    color: black;
+}
+/* ==========================
+   SCOUT BATTUTA TABLET 10"
+   ========================== */
+
+#serveScoutModal button {
+
+    *adding: 15px 25px;
+    font-size* 20px;
+    font-weight: bold;
+    *order-radius: 8px;
+    margin: 5px*
+    min-width: 140px;
+    min-hei*ht: 60px;
+    cursor: pointer;
+
+}
+*#serveScoutCourt {
+
+    width* 100*;
+    max-width: 700px;
+    margin* auto;
+
+}
+
+.serveScoutZone {
+
+    *ont-size: 36px !important;
+
+}
+
+#se*veScoutStats {
+
+    max-height: 25*px;
+    overflow-y: auto;
+
+}
+
+#ser*e*cout*vents {
+
+    max-height: 250px;
+  * overflow-y: auto;
+
+}
