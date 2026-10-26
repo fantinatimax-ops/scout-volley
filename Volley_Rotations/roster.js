@@ -5,6 +5,7 @@ var roster = [
         name: "Sabry",
         roles: ["P","C"]
     },
+    
     {
         number: 22,
         name: "Silvia",
@@ -65,7 +66,7 @@ var roster = [
         role: "L"
     },
     
-        {
+    {
         number: 7,
         name: "Francesca",
         role: "L"
