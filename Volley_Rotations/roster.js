@@ -8,7 +8,7 @@ var roster = [
     {
         number: 22,
         name: "Silvia",
-        roles: ["O"]
+        role: "O"
     },
 
     {
