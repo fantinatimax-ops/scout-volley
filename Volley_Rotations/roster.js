@@ -39,7 +39,7 @@ var roster = [
     {
         number: 30,
         name: "Alessia",
-        roles: ["S","P"]
+        role: "S"
     },
 
     {
@@ -47,6 +47,11 @@ var roster = [
         name: "Rebecca",
         roles: ["O","S"]
     },
+    {
+        number: 98,
+        name: "Silvia",
+        role: "S"
+    },   
 
     {
         number: 92,
