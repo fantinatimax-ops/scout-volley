@@ -5,7 +5,11 @@ var roster = [
         name: "Sabry",
         roles: ["P","C"]
     },
-    
+    {
+        number: 62,
+        name: "Sandra",
+        role: "P"
+    },
     {
         number: 22,
         name: "Silvia",
