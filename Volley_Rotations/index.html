@@ -21,15 +21,6 @@
     <script src="ReceiveScout.js"></script>
     <script src="vbRotations.js"></script>
     <style>
-
-    <script>
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("./sw.js")
-            .then(() => console.log("PWA attiva"))
-            .catch(err => console.log(err));
-    }
-    </script>
-
         
         body{
             font-family:Verdana, Arial, sans-serif;
@@ -80,6 +71,14 @@
 
     </style>
 
+    <script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js")
+            .then(() => console.log("PWA attiva"))
+            .catch(err => console.log(err));
+    }
+    </script>
+    
 </head>
 
 <body>
